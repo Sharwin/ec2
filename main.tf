@@ -16,6 +16,7 @@ resource "aws_instance" "cloudcamp" {
 
   tags = {
     bootcamp = "devops"
+    Name = "EC2_tags"
   }
 
   associate_public_ip_address = true
